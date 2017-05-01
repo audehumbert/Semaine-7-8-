@@ -1,0 +1,240 @@
+
+
+
+body {
+	font-family:'Ultra','Century Gothic'; 
+	margin-top:20px;
+
+}
+
+/* logo en haut*/
+.logo {
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+
+.mes_recettes_logo {
+	display :block;
+	width:100%;
+	max-width:700px;
+	margin:auto;
+	}
+
+/* navigation */
+.navigation {
+	float:none;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+.barre-nav {
+	margin-left:-27px;
+}
+
+.nav {
+	border-radius:10px;
+}
+
+.linavigation {
+	float-left:none;
+	display:inline-block;
+	text-align:center;
+}
+
+/*test trtansition*/
+
+.hoverimg {
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+/*effet aggrandissement photos des desserts et le texte lié*/
+.hoverimg:hover {
+	transform:scale(1.1);
+}
+
+
+.fa-github-alt /*logo github*/ {
+	padding-left:10px;
+}
+
+.btm-search /*couleur bouton recherche barre nav*/ {
+	background-color:#8ACEAF;
+	border :0px;
+}
+
+/*grande photo tubes de creme*/
+.photo-creme {
+	display:block;
+	width:100%;
+	max-width:1138px;
+}
+
+.creme {
+	margin-top:0px;
+	padding-top:5px;
+	margin-left:-7px;
+}
+
+
+.row_tarte {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.tarte_fraises {
+	max-width:600px;
+	max-height:600px;
+	border-radius:20px;
+	margin-top:17px;
+}
+
+td, th {
+	border : 1px solid black;
+	width:130px;
+	height:3px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+table {
+	border-collapse:collapse;
+	border-radius:20px;
+	margin-top:70px;
+}
+
+.preparation {
+	margin-top:5px;
+}
+
+input:focus {
+	background-color:#EEEEEE;
+}
+
+#sales {
+	margin-bottom:30px;
+}
+
+
+form {
+ background-color:#FAFAFA;
+ padding:10px;
+ width:500px;
+ border-radius:5px;
+ }
+
+
+
+ .label {
+ 	margin-right:10px;
+ 	font-weight:300;
+ 	color:#333333;
+ 	font-size:12px;
+
+ }
+
+/* marge sous label message */
+ #message {
+ 	margin-top:20px;
+ }
+
+
+ #nom, #mail {
+ 	
+
+ }
+
+ #prenom {
+ 	margin-right:15px;
+ }
+
+
+/*text ombre*/
+#nom, #mail, #prenom, #message {
+	box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 10px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 10px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.3) 0px 0px 10px;
+	background:-moz-linear-gradient(top, #FFF, #f7f7f7, 1px, #FFF 5px);
+	color:#919191;
+	margin-bottom:20px;
+	border:1px solid #f7f7f7;
+	border-radius:5px;
+	font-size:12px;
+}
+
+
+fieldset {
+	padding:25px;
+}
+}
+
+ .form-contact {
+ 	margin-top:30px;
+ 	border-radius:20px;
+ }
+
+/*Titre contact formulaire*/
+ #contact {
+ 	padding:20px;
+ 	max-width:1080px;
+ 	margin-top:10px;
+ 	margin-left:20px;
+ }
+
+ .legendmine {
+ 	font-size:16px;
+ }
+
+#bouton-envoi {
+	border-radius:5px;
+	margin:auto;
+}
+
+/* portfolio*/
+
+
+ .portfolio_contenu .vignette_folio {
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.vignette_folio img {
+    max-width: 100%;
+    position: relative;
+}
+
+.vignette_folio-wrapper {
+    overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.texte_label {
+    position: relative;
+    z-index: 500;
+    padding: 5px 8px;
+    text-align: center;
+    background-color: #464646;
+    bottom: -40px;
+
+}
+
+#filtres {
+    display: flex;
+    color: #337ab7;
+    overflow: hidden;
+    
+
+}
+
+#filtres li {
+    list-style: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right:15px;
+}
